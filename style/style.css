@@ -1,0 +1,43 @@
+html, * {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 30px;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(188, 249, 157);
+  margin: 0 30%;
+  padding-bottom: 5%;
+}
+
+input, button {
+  border-radius: 15px;
+}
+
+button {
+  margin: 2rem 0 0 0;
+  background-color: rgb(238, 182, 130);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(136, 121, 121);
+}
+
+li {
+  list-style: '🔹  ';
+  
+}
+
+#noTasks {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  background-color: rgba(121, 136, 127, 0.415);
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+}
